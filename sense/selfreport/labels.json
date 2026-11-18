@@ -1,0 +1,19 @@
+{
+  "labels": [
+    {"id": "looping",  "text": "Looping",           "hint": "replaying, chewing on it",       "color": "#6a4bb0"},
+    {"id": "worrying", "text": "Worrying",          "hint": "what-ifs about later",           "color": "#4659c2"},
+    {"id": "solving",  "text": "Solving mode",      "hint": "can't stop working the problem", "color": "#1f6f9e"},
+    {"id": "reactive", "text": "Reactive",          "hint": "triggered, snappy",              "color": "#b8432a"},
+    {"id": "wired",    "text": "Wired",             "hint": "body tense, restless",           "color": "#9a5a00"},
+    {"id": "foggy",    "text": "Foggy",             "hint": "flat, dull, low",                "color": "#5a6672"},
+    {"id": "checkout", "text": "Want to check out", "hint": "urge to numb or slow down",      "color": "#8c3d66"},
+    {"id": "letgo",     "text": "Let it go",        "hint": "caught a loop, stepped out",     "color": "#1f7a52", "group": "good"},
+    {"id": "paused",    "text": "Paused",           "hint": "caught it before reacting",      "color": "#2e6f62", "group": "good"},
+    {"id": "flow",      "text": "In flow",          "hint": "absorbed, by choice",            "color": "#2b6a8a", "group": "good"},
+    {"id": "energized", "text": "Energized",        "hint": "good energy",                    "color": "#8a6d12", "group": "good"},
+    {"id": "present",   "text": "Present",          "hint": "here, in your body",             "color": "#4f7a2a", "group": "good"},
+    {"id": "connected", "text": "Connected",        "hint": "close with someone",             "color": "#8a4f6e", "group": "good"},
+    {"id": "clear",     "text": "Clear",            "hint": "calm, clear-headed",             "color": "#3d6b4f", "group": "good"}
+  ],
+  "checkins": {"per_day": 6, "start": "09:00", "end": "21:00", "min_gap_min": 60}
+}

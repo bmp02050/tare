@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Recorded sessions: personal physiological data, never commit
+data/
+*.bin
+!tests/fixtures/*.bin
+
+# Personal notes, the brief, baseline predictions: local only, never public
+personal/
+# Reference image, not ours to redistribute
+emotionwheel.jpg
+
+# Signing: the release key and its passwords live outside the repo (~/.tare/), never here
+*.jks
+*.keystore
+signing.properties

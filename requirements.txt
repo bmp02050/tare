@@ -1,0 +1,10 @@
+# tare-p1 (sense layer). Python 3.10+.
+# Amused is pinned to the commit with the corrected Athena protocol (2026-04-23).
+# The PyPI release (amused 1.0.2, 2025-08) predates it and mis-decodes Athena EEG.
+# Note: the brief's "pip install amused-py" doesn't exist on PyPI.
+amused @ git+https://github.com/Amused-EEG/amused-py@bce20f98ddc7fa2efe3219d1b5d2f7554a55eb97
+bleak>=0.22
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pytest>=7
